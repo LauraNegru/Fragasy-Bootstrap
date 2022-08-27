@@ -1,0 +1,49 @@
+body{
+   background-image: url("images/fondoo.jpg");
+   background-size: cover;
+}
+
+.container{
+    max-width: 666px;
+    border: solid 2px;
+    border-radius: 7px;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: white;
+    color:rgb(123, 12, 88) ;
+}
+
+.logo{
+    max-height: 45px;
+}
+
+.navbar{
+    width: 100%;
+	margin: 0 auto;
+	background:rgba(240, 224, 237, 0.863) !important;
+    font-size: large;
+    display: flex!important;
+    flex-basis: auto;
+}
+
+.navbar > li > a{
+	display: block;
+	padding: 10px 40px;
+	color: rgb(0, 0, 0);
+	font-family: Arial;
+	text-decoration: none;
+}
+
+.navbar li a:hover{
+	color: #010000;
+	transition: all .3s; 
+}
+
+.contact{
+    font-family:Helvetica;
+    font-size: xx-large;
+}
+
+.btn-primary{
+  background-color:black;
+}

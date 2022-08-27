@@ -1,0 +1,17 @@
+body{
+    background-image: url("images/fondoo.jpg");
+    background-size: cover;
+ }
+.navbar{
+    width: 100%;
+	margin: 0 auto;
+	background:rgba(240, 224, 237, 0.863) !important;
+    font-size: large;
+    display: flex!important;
+    flex-basis: auto;
+}
+
+.logo{
+    max-height: 45px;
+    
+}
